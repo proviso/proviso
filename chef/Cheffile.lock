@@ -1,0 +1,18 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    build-essential (1.4.0)
+    mysql (3.0.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+    openssl (1.0.2)
+    php (1.2.0)
+      build-essential (>= 0.0.0)
+      mysql (>= 0.0.0)
+      xml (>= 0.0.0)
+    xml (1.1.2)
+      build-essential (>= 0.0.0)
+
+DEPENDENCIES
+  php (>= 0)
+
