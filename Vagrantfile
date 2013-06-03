@@ -11,10 +11,18 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--memory", "1024"]
   end
 
-  config.librarian_chef.cheffile_dir = "chef"
-  config.omnibus.chef_version = "11.4.4"
+  case ENV['PROVISO_PROVISIONER']
+  when /chef/i, nil
+    config.librarian_chef.cheffile_dir = "chef"
+    config.omnibus.chef_version = "11.4.4"
 
-  config.vm.provision :chef_solo do |chef|
-    chef.cookbooks_path = "chef/cookbooks"
+    config.vm.provision :chef_solo do |chef|
+      chef.cookbooks_path = "chef/cookbooks"
+    end
+  when /puppet/i
+    config.vm.provision :puppet do |puppet|
+      puppet.module_path    = "puppet/modules"
+      puppet.manifests_path = "puppet/manifests"
+    end
   end
 end
