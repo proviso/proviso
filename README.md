@@ -32,3 +32,9 @@ command, you may also export this environment variable for the remainder
 of your terminal session by running:
 
     export PROVISO_PROVISIONER=puppet
+
+Documentation
+-------------
+
+Complete documentation is [available in the
+wiki][https://github.com/proviso/proviso/wiki].

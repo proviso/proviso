@@ -18,11 +18,13 @@ Vagrant.configure("2") do |config|
 
     config.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = "chef/cookbooks"
+      chef.log_level = :debug unless ENV['PROVISO_DEBUG'].nil?
     end
   when /puppet/i
     config.vm.provision :puppet do |puppet|
       puppet.module_path    = "puppet/modules"
       puppet.manifests_path = "puppet/manifests"
+      puppet.options = "--verbose --debug" unless ENV['PROVISO_DEBUG'].nil?
     end
   end
 end
