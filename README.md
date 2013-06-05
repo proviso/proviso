@@ -8,6 +8,12 @@ framework and ecosystem for developers to achieve parity with multiple
 production deployment targets, as well as a one-click installer control
 panel that makes advanced local development accessible.
 
+Features
+--------
+
+- `vagrant-box-updater`: Keeps local boxes up-to-date with remote box
+updates.
+
 Usage
 -----
 
