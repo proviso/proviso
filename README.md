@@ -8,6 +8,8 @@ framework and ecosystem for developers to achieve parity with multiple
 production deployment targets, as well as a one-click installer control
 panel that makes advanced local development accessible.
 
+For more information, please check the [Wiki](https://github.com/proviso/proviso/wiki).
+
 Usage
 -----
 
