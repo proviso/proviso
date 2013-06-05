@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 1.9.3-p327 # Vagrant 1.2.2
+
+script:
+  - true
+
+notifications:
+  email: false
