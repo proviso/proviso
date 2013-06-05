@@ -1,5 +1,6 @@
-Proviso
-=======
+# Proviso
+[![Build
+Status](https://travis-ci.org/proviso/proviso.png)](https://travis-ci.org/proviso/proviso)
 
 Proviso aims to be an SDK+API to provision platform-independent local
 VMs for Drupal development. The project seeks to develop an extensible
