@@ -1,0 +1,8 @@
+# Defaults for pound initscript
+# sourced by /etc/init.d/pound
+# installed at /etc/default/pound by the maintainer scripts
+
+# prevent startup with default configuration
+# set the below varible to 1 in order to allow pound to start
+startup=1
+

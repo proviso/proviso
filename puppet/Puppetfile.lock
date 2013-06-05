@@ -1,8 +1,52 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
-    puppetlabs/stdlib (4.1.0)
+    maestrodev/wget (1.1.0)
+    puppetlabs/gcc (0.0.3)
+    thomasvandoren/redis (0.0.9)
+      maestrodev/wget (>= 0.0.0)
+      puppetlabs/gcc (>= 0.0.0)
+
+GIT
+  remote: https://github.com/bruce/puppet-vcsrepo
+  ref: master
+  sha: 6a6de6129a129112a30a13378b3d4c0bee6d832e
+  specs:
+    vcsrepo (0.0.1)
+
+GIT
+  remote: https://github.com/zivtech/puppet-drupal-solr
+  ref: master
+  sha: 415d4da6e7e9891e9c173d8b249efe9c99a38868
+  specs:
+    solr (0.0.1)
+
+GIT
+  remote: https://github.com/zivtech/puppet-mysql5
+  ref: master
+  sha: 4ef2c9764c1adac0f2d22f1803f3d707ef0c7bc8
+  specs:
+    mysql5 (0.0.1)
+
+GIT
+  remote: https://github.com/zivtech/puppet-php53
+  ref: 29dcf34bd776355f3c800ebd2bd7a530ffa177fa
+  sha: 29dcf34bd776355f3c800ebd2bd7a530ffa177fa
+  specs:
+    php53 (0.0.1)
+
+GIT
+  remote: https://github.com/zivtech/puppet-webadmin
+  ref: c25a220f7a76386a86d75e5cd8b17c18ab81b4c3
+  sha: c25a220f7a76386a86d75e5cd8b17c18ab81b4c3
+  specs:
+    webadmin (0.0.1)
 
 DEPENDENCIES
-  puppetlabs/stdlib (>= 0)
+  mysql5 (>= 0)
+  php53 (>= 0)
+  solr (>= 0)
+  thomasvandoren/redis (>= 0)
+  vcsrepo (>= 0)
+  webadmin (>= 0)
 
