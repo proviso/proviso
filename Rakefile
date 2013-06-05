@@ -3,6 +3,7 @@ task :install_plugins do
   # TODO: Terrible using system here, maybe `open3` lib to capture stdout.
   installed_plugins = `vagrant plugin list`.split("\n").map { |i| i.split(" ")[0] }
   required_plugins = %w{
+    vagrant-box-updater
     vagrant-librarian-chef
     vagrant-omnibus
   }
