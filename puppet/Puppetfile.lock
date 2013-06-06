@@ -3,6 +3,7 @@ FORGE
   specs:
     maestrodev/wget (1.1.0)
     puppetlabs/gcc (0.0.3)
+    rafaelfc/pear (1.0.2)
     thomasvandoren/redis (0.0.9)
       maestrodev/wget (>= 0.0.0)
       puppetlabs/gcc (>= 0.0.0)
@@ -13,6 +14,14 @@ GIT
   sha: 6a6de6129a129112a30a13378b3d4c0bee6d832e
   specs:
     vcsrepo (0.0.1)
+
+GIT
+  remote: https://github.com/proviso/erikwebb-drush
+  ref: 1-manage-usr-share-drush
+  sha: 8f08bdc21d7c2c254f1184e778400b93983402c8
+  specs:
+    drush (0.0.2)
+      rafaelfc/pear (>= 0)
 
 GIT
   remote: https://github.com/zivtech/puppet-drupal-solr
@@ -43,6 +52,7 @@ GIT
     webadmin (0.0.1)
 
 DEPENDENCIES
+  drush (>= 0)
   mysql5 (>= 0)
   php53 (>= 0)
   solr (>= 0)
