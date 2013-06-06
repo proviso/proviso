@@ -5,6 +5,7 @@ task :install_plugins do
   required_plugins = %w{
     vagrant-librarian-chef
     vagrant-omnibus
+    vagrant-vbguest
   }
 
   required_plugins.each do |plugin|
