@@ -24,6 +24,13 @@ GIT
       rafaelfc/pear (>= 0)
 
 GIT
+  remote: https://github.com/proviso/puppet-pound
+  ref: master
+  sha: 4979af4187c48709f2d6f34f97d7767aa3acd757
+  specs:
+    pound (0.0.1)
+
+GIT
   remote: https://github.com/zivtech/puppet-drupal-solr
   ref: master
   sha: 415d4da6e7e9891e9c173d8b249efe9c99a38868
@@ -55,6 +62,7 @@ DEPENDENCIES
   drush (>= 0)
   mysql5 (>= 0)
   php53 (>= 0)
+  pound (>= 0)
   solr (>= 0)
   thomasvandoren/redis (>= 0)
   vcsrepo (>= 0)

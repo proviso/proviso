@@ -18,5 +18,7 @@ mod "vcsrepo",
 mod "webadmin",
   :git => "https://github.com/zivtech/puppet-webadmin",
   :ref => "c25a220f7a76386a86d75e5cd8b17c18ab81b4c3"
+mod "pound",
+  :git => "https://github.com/proviso/puppet-pound"
 
 mod "thomasvandoren/redis"
