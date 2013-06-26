@@ -7,6 +7,8 @@ via google+ hangout at: http://bit.ly/proviso-hang
 
 <a target="_blank" href="https://www.google.com/calendar/event?action=TEMPLATE&tmeid=ZHJoZXI2ZzJ1a3A4Y2t2MGJkNTF0anFncm9fMjAxMzA2MTRUMjAwMDAwWiBrYWxhbXVuYS5jb21fdGQyZTU2aGQ1aTZmNTA1YjYxOTB2dXAyNm9AZw&tmsrc=kalamuna.com_td2e56hd5i6f505b6190vup26o%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 
+and we can be found 24/7(ish) on irc.freenode.net in #proviso
+
 Getting Started
 ---------------
 
