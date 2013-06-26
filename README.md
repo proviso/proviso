@@ -10,6 +10,8 @@ panel that makes advanced local development accessible.
 
 For more information, please check the [Wiki](https://github.com/proviso/proviso/wiki).
 
+To participate, see [contributing](https://github.com/proviso/proviso/blob/master/CONTRIBUTING.md).
+
 Usage
 -----
 
