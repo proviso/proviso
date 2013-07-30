@@ -12,6 +12,14 @@ For more information, please check the [Wiki](https://github.com/proviso/proviso
 
 To participate, see [contributing](https://github.com/proviso/proviso/blob/master/CONTRIBUTING.md).
 
+Pre-Requisites
+--------------
+- Git: http://git-scm.com/downloads
+- Ruby: http://www.ruby-lang.org/en/downloads/
+- RubyGems: http://rubygems.org/pages/download
+- Rake: gem install rake
+- Vagrant: http://downloads.vagrantup.com/
+
 Usage
 -----
 
