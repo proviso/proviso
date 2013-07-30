@@ -17,7 +17,7 @@ Pre-Requisites
 - Git: http://git-scm.com/downloads
 - Ruby: http://www.ruby-lang.org/en/downloads/
 - RubyGems: http://rubygems.org/pages/download
-- Rake:  gem install rake
+- Rake: gem install rake
 - Vagrant: http://downloads.vagrantup.com/
 
 Usage
