@@ -26,7 +26,9 @@ Usage
 ### 1. Setup
 
     git clone https://github.com/proviso/proviso.git && cd proviso
-    rake install_plugins
+    vagrant plugin install bindler
+    vagrant bindler setup
+    vagrant plugin bundle
 
 ### 2a. Chef
 
