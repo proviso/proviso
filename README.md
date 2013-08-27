@@ -12,6 +12,14 @@ For more information, please check the [Wiki](https://github.com/proviso/proviso
 
 To participate, see [contributing](https://github.com/proviso/proviso/blob/master/CONTRIBUTING.md).
 
+Features
+--------
+
+  * Vagrant plugin management via [`bindler`][bindler].
+  * Caches system packages (apt-get) between VM destroys via
+    [`vagrant-cachier`][vagrant-cachier].
+
+
 Pre-Requisites
 --------------
 - Git: http://git-scm.com/downloads
@@ -46,3 +54,9 @@ command, you may also export this environment variable for the remainder
 of your terminal session by running:
 
     export PROVISO_PROVISIONER=puppet
+
+
+
+<!-- Links -->
+   [bindler]:         https://github.com/fgrehm/bindler#readme
+   [vagrant-cachier]: https://github.com/fgrehm/vagrant-cachier#readme
