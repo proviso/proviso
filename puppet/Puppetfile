@@ -1,3 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/mysql'
+mod 'erikwebb/drush'
+mod 'puppetlabs/apache'
+mod 'thias/php'

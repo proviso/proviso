@@ -1,8 +1,22 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    erikwebb/drush (0.0.2)
+      rafaelfc/pear (>= 0.0.0)
+    puppetlabs/apache (0.8.1)
+      puppetlabs/stdlib (>= 2.2.1)
+      ripienaar/concat (>= 0.2.0)
+    puppetlabs/mysql (0.9.0)
+      puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/stdlib (4.1.0)
+    rafaelfc/pear (1.0.3)
+    ripienaar/concat (0.2.0)
+    thias/php (0.3.2)
 
 DEPENDENCIES
+  erikwebb/drush (>= 0)
+  puppetlabs/apache (>= 0)
+  puppetlabs/mysql (>= 0)
   puppetlabs/stdlib (>= 0)
+  thias/php (>= 0)
 
