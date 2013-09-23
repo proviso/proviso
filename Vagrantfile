@@ -23,8 +23,9 @@ Vagrant.configure("2") do |config|
     end
   when /puppet/i
     config.vm.provision :puppet do |puppet|
-      puppet.module_path    = "puppet/modules"
+      puppet.module_path    = ["puppet/modules", "puppet/modules-custom"]
       puppet.manifests_path = "puppet/manifests"
+      puppet.manifest_file = "zivtech.pp"
     end
   end
 end
