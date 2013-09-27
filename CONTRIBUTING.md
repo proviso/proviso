@@ -15,6 +15,10 @@ Getting Started
 - Make sure you have a [Github account](https://github.com/signup/free)
 - If no existing issue exists, [create a Github issue](https://github.com/proviso/proviso-draft/issues/new)
 - [Fork the repository!](https://github.com/proviso/proviso-draft/fork)
+- Create your feature branch (git checkout -b my-new-feature)
+- Commit your changes (git commit -am 'Add some feature')
+- Push to the branch (git push origin my-new-feature)
+- Create new Pull Request
 
 Making Changes
 --------------
