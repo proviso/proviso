@@ -1,6 +1,14 @@
 # Proviso
-[![Build
-Status](https://travis-ci.org/proviso/proviso.png)](https://travis-ci.org/proviso/proviso)
+[![Build Status](https://travis-ci.org/proviso/proviso.png)](https://travis-ci.org/proviso/proviso)
+[![Project Status](http://stillmaintained.com/proviso/proviso.png)](http://stillmaintained.com/proviso/proviso)
+
+**Important:** While the Proviso project is most certainly active, *it
+is currently of interest to VM environment tinkerers, not end-users.*
+While we encourage you to explore the repo for insight into the
+best-practices we've laid foundation for, we concede that the project
+does not even offer a full LAMP stack at the moment.
+
+--------
 
 Proviso aims to be an SDK+API to provision platform-independent local
 VMs for Drupal development. The project seeks to develop an extensible
