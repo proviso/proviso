@@ -69,6 +69,11 @@ class stage1 {
     ensure   => 'installed',
     provider => 'pecl',
   }
+  package { 'zip':
+    ensure   => 'installed',
+    provider => 'pecl',
+  }
+
 
   include php::composer
   include php::phpunit
