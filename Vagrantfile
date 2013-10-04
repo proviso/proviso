@@ -22,6 +22,11 @@ Vagrant.configure("2") do |config|
       chef.cookbooks_path = "chef/cookbooks"
     end
   when /puppet/i
+    # Install our target version of puppet.
+    config.vm.provision :shell do |shell|
+      shell.path = "puppet/install.sh"
+      # shell.args = target_version = "3.3.0"
+    end
     config.vm.provision :puppet do |puppet|
       puppet.module_path    = "puppet/modules"
       puppet.manifests_path = "puppet/manifests"
