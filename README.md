@@ -68,3 +68,7 @@ of your terminal session by running:
 <!-- Links -->
    [bindler]:         https://github.com/fgrehm/bindler#readme
    [vagrant-cachier]: https://github.com/fgrehm/vagrant-cachier#readme
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/proviso/proviso/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
