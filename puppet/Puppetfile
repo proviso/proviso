@@ -1,3 +1,14 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/mysql'
+mod 'erikwebb/drush'
+mod 'puppetlabs/apache'
+mod 'nodes/php'
+mod 'thomasvandoren/redis'
+mod 'saz/memcached'
+
+
+# mod 'apt',
+#   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+#   :ref => 'feature/master/dans_refactor'
