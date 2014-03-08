@@ -1,12 +1,12 @@
 # TODO: We should probably use proper stages here.
 class stage1 {
 
-  class { 'mysql::server':
-    config_hash => {
-      'root_password' => 'foo',
-    },
+  class { '::mysql::server':
+    root_password => 'foo',
   }
-  class { 'mysql::php': }
+  class { 'mysql::bindings':
+    php_enable => true,
+  }
 
   class { 'redis':
     version => '2.4.17',
