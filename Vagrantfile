@@ -14,14 +14,14 @@ Vagrant.configure("2") do |config|
   end
 
   case ENV['PROVISO_PROVISIONER']
-  when /chef/i, nil
+  when /chef/i
     config.librarian_chef.cheffile_dir = "chef"
     config.omnibus.chef_version = "11.4.4"
 
     config.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = "chef/cookbooks"
     end
-  when /puppet/i
+  when /puppet/i, nil
     # Install our target version of puppet.
     config.vm.provision :shell do |shell|
       shell.path = "puppet/install.sh"
