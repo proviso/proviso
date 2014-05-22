@@ -34,7 +34,7 @@ Pre-Requisites
 - Ruby: http://www.ruby-lang.org/en/downloads/
 - RubyGems: http://rubygems.org/pages/download
 - Rake: gem install rake
-- Vagrant: http://downloads.vagrantup.com/
+- Vagrant: http://www.vagrantup.com/downloads.html
 
 Usage
 -----
